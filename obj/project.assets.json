@@ -181,19 +181,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bran\\.nuget\\packages\\": {}
+    "C:\\Users\\Bran\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bran\\Desktop\\_temp\\UD2_1_Bouzas_Prado_Bran\\UD2_1_Bouzas_Prado_Bran.csproj",
+      "projectUniqueName": "C:\\Users\\Bran\\Desktop\\Bran\\Interfaces\\UD2_1_Bouzas_Prado_Bran\\UD2_1_Bouzas_Prado_Bran.csproj",
       "projectName": "UD2_1_Bouzas_Prado_Bran",
-      "projectPath": "C:\\Users\\bran\\Desktop\\_temp\\UD2_1_Bouzas_Prado_Bran\\UD2_1_Bouzas_Prado_Bran.csproj",
-      "packagesPath": "C:\\Users\\bran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bran\\Desktop\\_temp\\UD2_1_Bouzas_Prado_Bran\\obj\\",
+      "projectPath": "C:\\Users\\Bran\\Desktop\\Bran\\Interfaces\\UD2_1_Bouzas_Prado_Bran\\UD2_1_Bouzas_Prado_Bran.csproj",
+      "packagesPath": "C:\\Users\\Bran\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bran\\Desktop\\Bran\\Interfaces\\UD2_1_Bouzas_Prado_Bran\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\bran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

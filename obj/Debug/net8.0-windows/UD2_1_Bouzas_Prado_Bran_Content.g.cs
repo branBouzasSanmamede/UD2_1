@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("web/cam_overlay.html")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("web/navegador.html")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("web/ppt.html")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("webview2loader.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("webview2loader.dll")]

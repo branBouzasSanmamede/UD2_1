@@ -2,7 +2,6 @@ C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-w
 C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
 C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
 C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\UD2_1_Bouzas_Prado_Bran.exe
-C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\web\index.html
 C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\UD2_1_Bouzas_Prado_Bran.deps.json
 C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\UD2_1_Bouzas_Prado_Bran.runtimeconfig.json
 C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\UD2_1_Bouzas_Prado_Bran.dll
@@ -70,3 +69,14 @@ C:\Users\bran\Desktop\_temp\UD2_1_Bouzas_Prado_Bran\obj\Debug\net8.0-windows\UD2
 C:\Users\bran\Desktop\_temp\UD2_1_Bouzas_Prado_Bran\obj\Debug\net8.0-windows\UD2_1_Bouzas_Prado_Bran.genruntimeconfig.cache
 C:\Users\bran\Desktop\_temp\UD2_1_Bouzas_Prado_Bran\obj\Debug\net8.0-windows\ref\UD2_1_Bouzas_Prado_Bran.dll
 C:\Users\bran\Desktop\_temp\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\web\cam_overlay.html
+C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\web\ppt.html
+C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\System.Speech.dll
+C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Speech.dll
+C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\obj\Debug\net8.0-windows\windows\Camara.baml
+C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\obj\Debug\net8.0-windows\windows\NavegadorGestos.baml
+C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\obj\Debug\net8.0-windows\windows\PiedraPapelTijera.baml
+C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\obj\Debug\net8.0-windows\windows\Camara.g.cs
+C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\obj\Debug\net8.0-windows\windows\NavegadorGestos.g.cs
+C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\obj\Debug\net8.0-windows\windows\PiedraPapelTijera.g.cs
+C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\obj\Debug\net8.0-windows\UD2_1_Bouzas_Prado_Bran.sourcelink.json
+C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\web\navegador.html
