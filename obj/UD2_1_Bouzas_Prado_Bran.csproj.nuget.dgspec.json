@@ -49,6 +49,10 @@
             "Microsoft.Web.WebView2": {
               "target": "Package",
               "version": "[1.0.3537.50, )"
+            },
+            "System.Speech": {
+              "target": "Package",
+              "version": "[9.0.10, )"
             }
           },
           "imports": [

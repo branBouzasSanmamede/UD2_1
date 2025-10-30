@@ -6,21 +6,38 @@ namespace UD2_1_Bouzas_Prado_Bran.windows
 {
     public partial class PiedraPapelTijera : Window
     {
-        public PiedraPapelTijera()
+        private MainWindow _mainWindow;
+        public PiedraPapelTijera(MainWindow mainWindow)
         {
             InitializeComponent();
+            _mainWindow = mainWindow;
             Loaded += Window_Loaded;
         }
 
         private async void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            string path = Path.GetFullPath(@"..\web\ppt.html");
-            webView.Source = new Uri(path);
+            string baseDir = AppDomain.CurrentDomain.BaseDirectory;
+            string htmlPath = Path.Combine(baseDir, "web", "ppt.html");
+
+            if (!File.Exists(htmlPath))
+            {
+                MessageBox.Show($"Error: El archivo 'ppt.html' no se encuentra.\nRuta de búsqueda: {htmlPath}", "Archivo No Encontrado", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            webView.Source = new Uri(htmlPath);
             await webView.EnsureCoreWebView2Async();
 
             webView.CoreWebView2.Settings.IsScriptEnabled = true;
             webView.CoreWebView2.Settings.IsWebMessageEnabled = true;
             webView.CoreWebView2.Settings.AreDefaultContextMenusEnabled = true;
+            webView.CoreWebView2.PermissionRequested += (s, args) =>
+            {
+                if (args.PermissionKind == Microsoft.Web.WebView2.Core.CoreWebView2PermissionKind.Camera)
+                {
+                    args.State = Microsoft.Web.WebView2.Core.CoreWebView2PermissionState.Allow;
+                }
+            };
 
             webView.CoreWebView2.WebMessageReceived += (s, args) =>
             {
@@ -62,7 +79,7 @@ namespace UD2_1_Bouzas_Prado_Bran.windows
 
         private void BtnJugar_Click(object sender, RoutedEventArgs e)
         {
-            int jugador = predictionToInt(lblResultado.Text);
+            int jugador = PredictionToInt(lblResultado.Text);
             if (jugador == -1)
             {
                 MessageBox.Show("No hay jugada válida para jugar.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
@@ -90,7 +107,7 @@ namespace UD2_1_Bouzas_Prado_Bran.windows
             };
         }
 
-        private int predictionToInt(string pred)
+        private static int PredictionToInt(string pred)
         {
             return pred switch
             {
@@ -101,7 +118,7 @@ namespace UD2_1_Bouzas_Prado_Bran.windows
             };
         }
 
-        private int DeterminarGanador(int jugador, int maquina)
+        private static int DeterminarGanador(int jugador, int maquina)
         {
             if (jugador == maquina) return 0;
             if ((jugador == 0 && maquina == 2) ||
@@ -123,8 +140,20 @@ namespace UD2_1_Bouzas_Prado_Bran.windows
 
         private void BtnCerrar_Click(object sender, RoutedEventArgs e)
         {
-            new MainWindow().Show();
+            _mainWindow.Show();
             this.Close();
+        }
+
+        protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
+        {
+            base.OnClosing(e);
+
+            webView?.Dispose();
+
+            if (_mainWindow != null)
+            {
+                _mainWindow.Show();
+            }
         }
     }
 }

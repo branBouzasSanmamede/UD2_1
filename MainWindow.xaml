@@ -1,4 +1,4 @@
-﻿<Window x:Class="UD2_1_Bouzas_Prado_Bran.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Interfaz Principal" Height="348" Width="511" WindowStartupLocation="CenterScreen" Background="#F0F0F0" ResizeMode="NoResize">
+﻿<Window x:Class="UD2_1_Bouzas_Prado_Bran.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Interfaz Principal" Width="500" WindowStartupLocation="CenterScreen" Background="#F0F0F0" ResizeMode="NoResize" Height="400">
 
     <Grid Margin="20">
         <Grid.RowDefinitions>

@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Bran\\Desktop\\Bran\\Interfaces\\UD2_1_Bouzas_Prado_Bran\\",
+  "WorkspaceRootPath": "C:\\Users\\bran\\Desktop\\_temp\\UD2_1_Bouzas_Prado_Bran\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|c:\\users\\bran\\desktop\\bran\\interfaces\\ud2_1_bouzas_prado_bran\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|c:\\users\\bran\\desktop\\_temp\\ud2_1_bouzas_prado_bran\\windows\\navegadorgestos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|solutionrelative:windows\\navegadorgestos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|c:\\users\\bran\\desktop\\bran\\interfaces\\ud2_1_bouzas_prado_bran\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|c:\\users\\bran\\desktop\\_temp\\ud2_1_bouzas_prado_bran\\web\\cam_overlay.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|solutionrelative:web\\cam_overlay.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|c:\\users\\bran\\desktop\\bran\\interfaces\\ud2_1_bouzas_prado_bran\\web\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|solutionrelative:web\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|c:\\users\\bran\\desktop\\_temp\\ud2_1_bouzas_prado_bran\\windows\\navegadorgestos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|solutionrelative:windows\\navegadorgestos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|c:\\users\\bran\\desktop\\_temp\\ud2_1_bouzas_prado_bran\\windows\\piedrapapeltijera.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2162C88-4DA0-410D-9742-016F6631D9F1}|UD2_1_Bouzas_Prado_Bran.csproj|solutionrelative:windows\\piedrapapeltijera.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Bran\\Desktop\\Bran\\Interfaces\\UD2_1_Bouzas_Prado_Bran\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Bran\\Desktop\\Bran\\Interfaces\\UD2_1_Bouzas_Prado_Bran\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-23T07:57:43.755Z",
+              "DocumentIndex": 1,
+              "Title": "cam_overlay.html",
+              "DocumentMoniker": "C:\\Users\\bran\\Desktop\\_temp\\UD2_1_Bouzas_Prado_Bran\\web\\cam_overlay.html",
+              "RelativeDocumentMoniker": "web\\cam_overlay.html",
+              "ToolTip": "C:\\Users\\bran\\Desktop\\_temp\\UD2_1_Bouzas_Prado_Bran\\web\\cam_overlay.html",
+              "RelativeToolTip": "web\\cam_overlay.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-30T05:53:12.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\Bran\\Desktop\\Bran\\Interfaces\\UD2_1_Bouzas_Prado_Bran\\web\\index.html",
-              "RelativeDocumentMoniker": "web\\index.html",
-              "ToolTip": "C:\\Users\\Bran\\Desktop\\Bran\\Interfaces\\UD2_1_Bouzas_Prado_Bran\\web\\index.html",
-              "RelativeToolTip": "web\\index.html",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAmwG4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-23T07:41:59.817Z",
+              "Title": "NavegadorGestos.xaml",
+              "DocumentMoniker": "C:\\Users\\bran\\Desktop\\_temp\\UD2_1_Bouzas_Prado_Bran\\windows\\NavegadorGestos.xaml",
+              "RelativeDocumentMoniker": "windows\\NavegadorGestos.xaml",
+              "ToolTip": "C:\\Users\\bran\\Desktop\\_temp\\UD2_1_Bouzas_Prado_Bran\\windows\\NavegadorGestos.xaml",
+              "RelativeToolTip": "windows\\NavegadorGestos.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-30T04:02:38.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Bran\\Desktop\\Bran\\Interfaces\\UD2_1_Bouzas_Prado_Bran\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Bran\\Desktop\\Bran\\Interfaces\\UD2_1_Bouzas_Prado_Bran\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAkwE8AAAAaAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "NavegadorGestos.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bran\\Desktop\\_temp\\UD2_1_Bouzas_Prado_Bran\\windows\\NavegadorGestos.xaml.cs",
+              "RelativeDocumentMoniker": "windows\\NavegadorGestos.xaml.cs",
+              "ToolTip": "C:\\Users\\bran\\Desktop\\_temp\\UD2_1_Bouzas_Prado_Bran\\windows\\NavegadorGestos.xaml.cs",
+              "RelativeToolTip": "windows\\NavegadorGestos.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T07:34:57.43Z",
+              "WhenOpened": "2025-10-30T00:31:56.751Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PiedraPapelTijera.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bran\\Desktop\\_temp\\UD2_1_Bouzas_Prado_Bran\\windows\\PiedraPapelTijera.xaml.cs",
+              "RelativeDocumentMoniker": "windows\\PiedraPapelTijera.xaml.cs",
+              "ToolTip": "C:\\Users\\bran\\Desktop\\_temp\\UD2_1_Bouzas_Prado_Bran\\windows\\PiedraPapelTijera.xaml.cs",
+              "RelativeToolTip": "windows\\PiedraPapelTijera.xaml.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAqwIwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T05:55:48.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1298,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
