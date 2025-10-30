@@ -1,0 +1,2 @@
+2025/10/23-09:43:11.725 2f34 Creating DB C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\UD2_1_Bouzas_Prado_Bran.exe.WebView2\EBWebView\Default\Extension Scripts since it was missing.
+2025/10/23-09:43:11.729 2f34 Reusing MANIFEST C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\UD2_1_Bouzas_Prado_Bran.exe.WebView2\EBWebView\Default\Extension Scripts/MANIFEST-000001

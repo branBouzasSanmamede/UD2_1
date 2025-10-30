@@ -1,0 +1,3 @@
+2025/10/23-11:59:57.236 3608 Reusing MANIFEST C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\UD2_1_Bouzas_Prado_Bran.exe.WebView2\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/10/23-11:59:57.237 3608 Recovering log #3
+2025/10/23-11:59:57.238 3608 Reusing old log C:\Users\Bran\Desktop\Bran\Interfaces\UD2_1_Bouzas_Prado_Bran\bin\Debug\net8.0-windows\UD2_1_Bouzas_Prado_Bran.exe.WebView2\EBWebView\Default\Sync Data\LevelDB/000003.log 

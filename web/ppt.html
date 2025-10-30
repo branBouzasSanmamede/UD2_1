@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Piedra, Papel o Tijeras</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #55a7e0;
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body > div {
+            margin: 35px;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-around;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #webcam {
+            border: 2px solid #444;
+            border-radius: 10px;
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+            width: 480px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: black;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #label {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #000;
+            min-height: 28px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <video id="webcam" autoplay playsinline></video>
+        <p id="label">Cargando modelo...</p>
+    </div>
+
+    <script>
+        let model, webcam;
+        const labelElement = document.getElementById("label");
+
+        async function init() {
+            try {
+                model = await tf.loadLayersModel("https://teachablemachine.withgoogle.com/models/L7zrMyqf6/model.json");
+                labelElement.innerText = "Modelo cargado ✅";
+
+                webcam = document.getElementById("webcam");
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                webcam.srcObject = stream;
+
+                webcam.addEventListener("loadeddata", () => {
+                    predict();
+                });
+            } catch (error) {
+                labelElement.innerText = "❌ Error cargando el modelo";
+                console.error("Error al cargar el modelo:", error);
+
+                if (window.chrome && window.chrome.webview) {
+                    window.chrome.webview.postMessage("ERROR_CAMARA_O_MODELO");
+                }
+            }
+        }
+
+        async function predict() {
+            const classNames = ["Piedra", "Papel", "Tijeras"];
+
+            while (true) {
+                try {
+                    const img = tf.browser.fromPixels(webcam)
+                        .resizeNearestNeighbor([224, 224])
+                        .toFloat()
+                        .div(tf.scalar(255))
+                        .expandDims();
+
+                    const prediction = model.predict(img);
+                    const probs = await prediction.data();
+                    const maxIndex = probs.indexOf(Math.max(...probs));
+
+                    labelElement.innerText = "Detectado: " + classNames[maxIndex];
+
+                    if (window.chrome && window.chrome.webview) {
+                        window.chrome.webview.postMessage(maxIndex.toString());
+                    }
+                } catch (e) {
+                    console.error("Error durante la predicción:", e);
+
+                    if (window.chrome && window.chrome.webview) {
+                        window.chrome.webview.postMessage("ERROR_PREDICCION");
+                    }
+                }
+
+                await new Promise(r => setTimeout(r, 300));
+                await tf.nextFrame();
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>
